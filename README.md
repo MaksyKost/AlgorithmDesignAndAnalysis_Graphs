@@ -10,44 +10,43 @@ This repository was created for the Data Design and Analysis course at Wrocław 
 
 To implement and compare three graph algorithms:
 
-    - Dijkstra's Algorithm
+- Dijkstra's Algorithm
 
-    - Bellman-Ford Algorithm
+- Bellman-Ford Algorithm
 
-    - Depth-First Search (DFS)
+- Depth-First Search (DFS)
 
 ## ⚙️ Implemented features
+Graph representation:
 
-    Graph representation:
+- Adjacency Matrix
 
-        - Adjacency Matrix
+- Adjacency List
 
-        - Adjacency List
+Random graph generation with configurable:
 
-    Random graph generation with configurable:
+- Number of vertices (10, 50, 100, 200, 500)
 
-        - Number of vertices (10, 50, 100, 200, 500)
+- Graph density (25%, 50%, 75%, 100%)
 
-        - Graph density (25%, 50%, 75%, 100%)
+Graph algorithms:
 
-    Graph algorithms:
+- Finding shortest paths (Dijkstra, Bellman-Ford)
 
-        - Finding shortest paths (Dijkstra, Bellman-Ford)
-
-        - Graph traversal (DFS)
+- Graph traversal (DFS)
 
 ## 🧪 Benchmarking
 
-    Execution time measured for different graph sizes and densities
+Execution time measured for different graph sizes and densities
 
-    100 random instances per configuration
+100 random instances per configuration
 
-    Results are saved to results/ as .csv files
+Results are saved to results/ as .csv files
 
-    Visualized and analyzed in the final report
+Visualized and analyzed in the final report
 
 ## 🛠️ Technologies
 
-    Language: C++
+Language: C++
 
-    Graph visualization with Graphviz
+Graph visualization with Graphviz
