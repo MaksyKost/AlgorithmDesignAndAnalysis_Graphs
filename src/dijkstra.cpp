@@ -1,6 +1,6 @@
 #include "dijkstra.h"
 
-template <typename GraphType>
+template<typename GraphType>
 vector<int> Dijkstra<GraphType>::run(const GraphType& graph, int source) {
     vector<int> dist(graph.V, numeric_limits<int>::max());
     dist[source] = 0;

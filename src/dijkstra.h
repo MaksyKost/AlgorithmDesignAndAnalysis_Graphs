@@ -1,6 +1,9 @@
 #pragma once
 #include "graph.h"
+#include <vector>
+#include <limits>
 #include <queue>
+
 
 template <typename GraphType>
 class Dijkstra {

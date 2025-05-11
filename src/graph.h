@@ -1,6 +1,10 @@
 #pragma once
 #include <vector>
 #include <limits>
+#include <set>
+#include <cstdlib>
+
+
 
 using namespace std;
 
@@ -11,6 +15,9 @@ public:
 
     AdjacencyMatrixGraph(int vertices);
     void addEdge(int u, int v, int weight);
+
+    void createGraph(int vertices, double density);
+    double calculateDensity() const;
 };
 
 class AdjacencyListGraph {
@@ -20,4 +27,7 @@ public:
 
     AdjacencyListGraph(int vertices);
     void addEdge(int u, int v, int weight);
+
+    void createGraph(int vertices, double density);
+    double calculateDensity() const;
 };
