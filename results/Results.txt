@@ -2,169 +2,279 @@
 Testowanie grafów: 10 wierzchołków, gęstość 25%
 
 **DFS**:
-Lista sąsiedztwa:  1.7432e-06 s
-Macierz sąsiedztwa: 2.902e-07 s
+Lista sąsiedztwa:  9.794e-07 s
+Macierz sąsiedztwa: 1.622e-07 s
 
 **Dijkstra**:
-Lista sąsiedztwa:  4.784e-06 s
-Macierz sąsiedztwa: 5.4876e-06 s
+Lista sąsiedztwa:  2.5786e-06 s
+Macierz sąsiedztwa: 3.2392e-06 s
 
 **Bellman-Ford**:
-Lista sąsiedztwa:  7.606e-06 s
-Macierz sąsiedztwa: 9.15e-06 s
+Lista sąsiedztwa:  4.0624e-06 s
+Macierz sąsiedztwa: 4.9908e-06 s
 
 Testowanie grafów: 10 wierzchołków, gęstość 50%
 
 **DFS**:
-Lista sąsiedztwa:  3.3978e-06 s
-Macierz sąsiedztwa: 4.076e-07 s
+Lista sąsiedztwa:  1.8032e-06 s
+Macierz sąsiedztwa: 2.026e-07 s
 
 **Dijkstra**:
-Lista sąsiedztwa:  1.05918e-05 s
-Macierz sąsiedztwa: 1.27922e-05 s
+Lista sąsiedztwa:  5.1718e-06 s
+Macierz sąsiedztwa: 6.9746e-06 s
 
 **Bellman-Ford**:
-Lista sąsiedztwa:  1.43556e-05 s
-Macierz sąsiedztwa: 1.34444e-05 s
+Lista sąsiedztwa:  6.994e-06 s
+Macierz sąsiedztwa: 6.6446e-06 s
 
 Testowanie grafów: 10 wierzchołków, gęstość 75%
 
 **DFS**:
-Lista sąsiedztwa:  4.343e-06 s
-Macierz sąsiedztwa: 4.944e-07 s
+Lista sąsiedztwa:  2.3928e-06 s
+Macierz sąsiedztwa: 2.714e-07 s
 
 **Dijkstra**:
-Lista sąsiedztwa:  1.3481e-05 s
-Macierz sąsiedztwa: 1.67624e-05 s
+Lista sąsiedztwa:  7.0924e-06 s
+Macierz sąsiedztwa: 9.9214e-06 s
 
 **Bellman-Ford**:
-Lista sąsiedztwa:  1.97904e-05 s
-Macierz sąsiedztwa: 1.62568e-05 s
+Lista sąsiedztwa:  1.00662e-05 s
+Macierz sąsiedztwa: 8.8568e-06 s
 
 Testowanie grafów: 10 wierzchołków, gęstość 100%
 
 **DFS**:
-Lista sąsiedztwa:  5.34e-06 s
-Macierz sąsiedztwa: 5.666e-07 s
+Lista sąsiedztwa:  2.9414e-06 s
+Macierz sąsiedztwa: 2.978e-07 s
 
 **Dijkstra**:
-Lista sąsiedztwa:  1.72088e-05 s
-Macierz sąsiedztwa: 1.71418e-05 s
+Lista sąsiedztwa:  8.5944e-06 s
+Macierz sąsiedztwa: 1.03992e-05 s
 
 **Bellman-Ford**:
-Lista sąsiedztwa:  2.52044e-05 s
-Macierz sąsiedztwa: 2.00282e-05 s
+Lista sąsiedztwa:  1.288e-05 s
+Macierz sąsiedztwa: 1.1056e-05 s
 
 Testowanie grafów: 50 wierzchołków, gęstość 25%
 
 **DFS**:
-Lista sąsiedztwa:  3.3709e-05 s
-Macierz sąsiedztwa: 1.0222e-06 s
+Lista sąsiedztwa:  1.70562e-05 s
+Macierz sąsiedztwa: 4.484e-07 s
 
 **Dijkstra**:
-Lista sąsiedztwa:  0.000120494 s
-Macierz sąsiedztwa: 0.000135095 s
+Lista sąsiedztwa:  5.81134e-05 s
+Macierz sąsiedztwa: 7.64034e-05 s
 
 **Bellman-Ford**:
-Lista sąsiedztwa:  0.000895213 s
-Macierz sąsiedztwa: 0.00135252 s
+Lista sąsiedztwa:  0.000440831 s
+Macierz sąsiedztwa: 0.000661445 s
 
 Testowanie grafów: 50 wierzchołków, gęstość 50%
 
 **DFS**:
-Lista sąsiedztwa:  6.06336e-05 s
-Macierz sąsiedztwa: 1.5696e-06 s
+Lista sąsiedztwa:  3.0989e-05 s
+Macierz sąsiedztwa: 7.484e-07 s
 
 **Dijkstra**:
-Lista sąsiedztwa:  0.000185895 s
-Macierz sąsiedztwa: 0.000208619 s
+Lista sąsiedztwa:  9.41746e-05 s
+Macierz sąsiedztwa: 0.00014188 s
 
 **Bellman-Ford**:
-Lista sąsiedztwa:  0.00171343 s
-Macierz sąsiedztwa: 0.0018652 s
+Lista sąsiedztwa:  0.000875853 s
+Macierz sąsiedztwa: 0.00095085 s
 
 Testowanie grafów: 50 wierzchołków, gęstość 75%
 
 **DFS**:
-Lista sąsiedztwa:  9.01904e-05 s
-Macierz sąsiedztwa: 1.9386e-06 s
+Lista sąsiedztwa:  4.45982e-05 s
+Macierz sąsiedztwa: 8.882e-07 s
 
 **Dijkstra**:
-Lista sąsiedztwa:  0.000278145 s
-Macierz sąsiedztwa: 0.000261882 s
+Lista sąsiedztwa:  0.000135557 s
+Macierz sąsiedztwa: 0.000189402 s
 
 **Bellman-Ford**:
-Lista sąsiedztwa:  0.00256299 s
-Macierz sąsiedztwa: 0.00234433 s
+Lista sąsiedztwa:  0.00128856 s
+Macierz sąsiedztwa: 0.00117096 s
 
 Testowanie grafów: 50 wierzchołków, gęstość 100%
 
 **DFS**:
-Lista sąsiedztwa:  0.000116229 s
-Macierz sąsiedztwa: 2.205e-06 s
+Lista sąsiedztwa:  5.93732e-05 s
+Macierz sąsiedztwa: 1.0826e-06 s
 
 **Dijkstra**:
-Lista sąsiedztwa:  0.000351351 s
-Macierz sąsiedztwa: 0.000282162 s
+Lista sąsiedztwa:  0.000174949 s
+Macierz sąsiedztwa: 0.000216671 s
 
 **Bellman-Ford**:
-Lista sąsiedztwa:  0.00340916 s
-Macierz sąsiedztwa: 0.00277684 s
+Lista sąsiedztwa:  0.00173672 s
+Macierz sąsiedztwa: 0.00140682 s
 
 Testowanie grafów: 100 wierzchołków, gęstość 25%
 
 **DFS**:
-Lista sąsiedztwa:  0.000126884 s
-Macierz sąsiedztwa: 2.1678e-06 s
+Lista sąsiedztwa:  6.43412e-05 s
+Macierz sąsiedztwa: 9.232e-07 s
 
 **Dijkstra**:
-Lista sąsiedztwa:  0.000418302 s
-Macierz sąsiedztwa: 0.000631215 s
+Lista sąsiedztwa:  0.000200792 s
+Macierz sąsiedztwa: 0.000305942 s
 
 **Bellman-Ford**:
-Lista sąsiedztwa:  0.00704577 s
-Macierz sąsiedztwa: 0.0107694 s
+Lista sąsiedztwa:  0.00353678 s
+Macierz sąsiedztwa: 0.00539913 s
 
 Testowanie grafów: 100 wierzchołków, gęstość 50%
 
 **DFS**:
-Lista sąsiedztwa:  0.000239327 s
-Macierz sąsiedztwa: 3.2994e-06 s
+Lista sąsiedztwa:  0.000121868 s
+Macierz sąsiedztwa: 1.552e-06 s
 
 **Dijkstra**:
-Lista sąsiedztwa:  0.00074872 s
-Macierz sąsiedztwa: 0.000961719 s
+Lista sąsiedztwa:  0.000374662 s
+Macierz sąsiedztwa: 0.000587431 s
 
 **Bellman-Ford**:
-Lista sąsiedztwa:  0.0138595 s
-Macierz sąsiedztwa: 0.0154571 s
+Lista sąsiedztwa:  0.00692448 s
+Macierz sąsiedztwa: 0.00773185 s
 
 Testowanie grafów: 100 wierzchołków, gęstość 75%
 
 **DFS**:
-Lista sąsiedztwa:  0.000347839 s
-Macierz sąsiedztwa: 3.9288e-06 s
+Lista sąsiedztwa:  0.000170837 s
+Macierz sąsiedztwa: 1.8902e-06 s
 
 **Dijkstra**:
-Lista sąsiedztwa:  0.00100446 s
-Macierz sąsiedztwa: 0.00109449 s
+Lista sąsiedztwa:  0.000495135 s
+Macierz sąsiedztwa: 0.000781426 s
 
 **Bellman-Ford**:
-Lista sąsiedztwa:  0.0207307 s
-Macierz sąsiedztwa: 0.0190275 s
+Lista sąsiedztwa:  0.0100787 s
+Macierz sąsiedztwa: 0.00928659 s
 
 Testowanie grafów: 100 wierzchołków, gęstość 100%
 
 **DFS**:
-Lista sąsiedztwa:  0.000452819 s
-Macierz sąsiedztwa: 4.0026e-06 s
+Lista sąsiedztwa:  0.000224915 s
+Macierz sąsiedztwa: 1.957e-06 s
 
 **Dijkstra**:
-Lista sąsiedztwa:  0.00127597 s
-Macierz sąsiedztwa: 0.00103164 s
+Lista sąsiedztwa:  0.000625897 s
+Macierz sąsiedztwa: 0.000887564 s
 
 **Bellman-Ford**:
-Lista sąsiedztwa:  0.027429 s
-Macierz sąsiedztwa: 0.02203 s
+Lista sąsiedztwa:  0.0134338 s
+Macierz sąsiedztwa: 0.0108224 s
 
 Testowanie grafów: 200 wierzchołków, gęstość 25%
+
+**DFS**:
+Lista sąsiedztwa:  0.000244405 s
+Macierz sąsiedztwa: 2.2506e-06 s
+
+**Dijkstra**:
+Lista sąsiedztwa:  0.000729669 s
+Macierz sąsiedztwa: 0.00127341 s
+
+**Bellman-Ford**:
+Lista sąsiedztwa:  0.0272448 s
+Macierz sąsiedztwa: 0.0429006 s
+
+Testowanie grafów: 200 wierzchołków, gęstość 50%
+
+**DFS**:
+Lista sąsiedztwa:  0.000478364 s
+Macierz sąsiedztwa: 3.6992e-06 s
+
+**Dijkstra**:
+Lista sąsiedztwa:  0.00130141 s
+Macierz sąsiedztwa: 0.0024 s
+
+**Bellman-Ford**:
+Lista sąsiedztwa:  0.0543628 s
+Macierz sąsiedztwa: 0.100062 s
+
+Testowanie grafów: 200 wierzchołków, gęstość 75%
+
+**DFS**:
+Lista sąsiedztwa:  0.00070014 s
+Macierz sąsiedztwa: 3.9408e-06 s
+
+**Dijkstra**:
+Lista sąsiedztwa:  0.00182914 s
+Macierz sąsiedztwa: 0.00293026 s
+
+**Bellman-Ford**:
+Lista sąsiedztwa:  0.0806658 s
+Macierz sąsiedztwa: 0.100214 s
+
+Testowanie grafów: 200 wierzchołków, gęstość 100%
+
+**DFS**:
+Lista sąsiedztwa:  0.000915049 s
+Macierz sąsiedztwa: 4.0076e-06 s
+
+**Dijkstra**:
+Lista sąsiedztwa:  0.00234743 s
+Macierz sąsiedztwa: 0.0032034 s
+
+**Bellman-Ford**:
+Lista sąsiedztwa:  0.107633 s
+Macierz sąsiedztwa: 0.107505 s
+
+Testowanie grafów: 500 wierzchołków, gęstość 25%
+
+**DFS**:
+Lista sąsiedztwa:  0.00148409 s
+Macierz sąsiedztwa: 5.4946e-06 s
+
+**Dijkstra**:
+Lista sąsiedztwa:  0.00390403 s
+Macierz sąsiedztwa: 0.00822666 s
+
+**Bellman-Ford**:
+Lista sąsiedztwa:  0.460609 s
+Macierz sąsiedztwa: 1.15055 s
+
+Testowanie grafów: 500 wierzchołków, gęstość 50%
+
+**DFS**:
+Lista sąsiedztwa:  0.0028197 s
+Macierz sąsiedztwa: 8.263e-06 s
+
+**Dijkstra**:
+Lista sąsiedztwa:  0.00715778 s
+Macierz sąsiedztwa: 0.0146375 s
+
+**Bellman-Ford**:
+Lista sąsiedztwa:  0.99819 s
+Macierz sąsiedztwa: 1.85054 s
+
+Testowanie grafów: 500 wierzchołków, gęstość 75%
+
+**DFS**:
+Lista sąsiedztwa:  0.00415922 s
+Macierz sąsiedztwa: 9.1008e-06 s
+
+**Dijkstra**:
+Lista sąsiedztwa:  0.0102893 s
+Macierz sąsiedztwa: 0.0174512 s
+
+**Bellman-Ford**:
+Lista sąsiedztwa:  1.52099 s
+Macierz sąsiedztwa: 1.83079 s
+
+Testowanie grafów: 500 wierzchołków, gęstość 100%
+
+**DFS**:
+Lista sąsiedztwa:  0.00549341 s
+Macierz sąsiedztwa: 9.3822e-06 s
+
+**Dijkstra**:
+Lista sąsiedztwa:  0.0137155 s
+Macierz sąsiedztwa: 0.0173248 s
+
+**Bellman-Ford**:
+Lista sąsiedztwa:  2.07613 s
+Macierz sąsiedztwa: 1.89223 s
