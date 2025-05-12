@@ -111,6 +111,6 @@ int main() {
     }
 
     resultsFile.close();
-    cout << "\nZakończono! Wyniki zapisane w 'GraphAlgorithmResults.txt'.\n";
+    cout << "\nZakończono! Wyniki zapisane w 'src/Results.txt'.\n";
     return 0;
 }
