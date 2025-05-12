@@ -19,7 +19,6 @@ void AdjacencyListGraph::createGraph(int vertices, double density) {
     int targetEdges = static_cast<int>(density * maxEdges);
 
     std::set<std::pair<int, int>> addedEdges;
-    srand(123);
 
     while (addedEdges.size() < targetEdges) {
         int u = rand() % V;
@@ -52,7 +51,6 @@ void AdjacencyMatrixGraph::createGraph(int vertices, double density) {
     int targetEdges = static_cast<int>(density * maxEdges);
 
     int edgesAdded = 0;
-    srand(123);
 
     while (edgesAdded < targetEdges) {
         int u = rand() % V;

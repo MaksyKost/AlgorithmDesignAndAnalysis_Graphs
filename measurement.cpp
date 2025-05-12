@@ -26,15 +26,15 @@ int main() {
 
     ofstream resultsFile("results/GraphAlgorithmResults.txt");
     if (!resultsFile.is_open()) {
-        cerr << "Помилка відкриття файлу для запису!" << endl;
+        cerr << "Błąd otwarcia pliku do zapisu!" << endl;
         return 1;
     }
 
     for (int size : SIZES) {
         for (double density : DENSITIES) {
-            cout << "\n📊 Тестування графів: " << size << " вершин, густина " 
+            cout << "\nTestowanie grafów: " << size << " wierzchołków, gęstość " 
                  << density * 100 << "%" << endl;
-            resultsFile << "\n📊 Тестування графів: " << size << " вершин, густина " 
+            resultsFile << "\nTestowanie grafów: " << size << " wierzchołków, gęstość " 
                         << density * 100 << "%" << endl;
 
             double total_dfs_list = 0.0, total_dfs_matrix = 0.0;
@@ -66,15 +66,15 @@ int main() {
                 for (int t = 0; t < TESTS; t++) {
                     vector<bool> visited(size, false);
 
-                    // 🏁 ТЕСТ DFS
+                    // 🏁 TEST DFS
                     dfs_time_list += measure_time([&]() { dfs_list.run(listGraph, 0, visited); });
                     dfs_time_matrix += measure_time([&]() { dfs_matrix.run(matrixGraph, 0, visited); });
 
-                    // 🏁 ТЕСТ Dijkstra
+                    // 🏁 TEST Dijkstra
                     dijkstra_time_list += measure_time([&]() { dijkstra_list.run(listGraph, 0); });
                     dijkstra_time_matrix += measure_time([&]() { dijkstra_matrix.run(matrixGraph, 0); });
 
-                    // 🏁 ТЕСТ Bellman-Ford
+                    // 🏁 TEST Bellman-Ford
                     bellman_time_list += measure_time([&]() { bellman_list.run(listGraph, 0); });
                     bellman_time_matrix += measure_time([&]() { bellman_matrix.run(matrixGraph, 0); });
                 }
@@ -89,22 +89,22 @@ int main() {
                 total_bellman_matrix += bellman_time_matrix / TESTS;
             }
 
-            // ✨ ЗАПИС РЕЗУЛЬТАТІВ
+            // ZAPIS WYNIKÓW
             resultsFile << "\n**DFS**:\n";
-            resultsFile << "Список суміжності:  " << (total_dfs_list / 5) << " с\n";
-            resultsFile << "Матриця суміжності: " << (total_dfs_matrix / 5) << " с\n";
+            resultsFile << "Lista sąsiedztwa:  " << (total_dfs_list / 5) << " s\n";
+            resultsFile << "Macierz sąsiedztwa: " << (total_dfs_matrix / 5) << " s\n";
 
             resultsFile << "\n**Dijkstra**:\n";
-            resultsFile << "Список суміжності:  " << (total_dijkstra_list / 5) << " с\n";
-            resultsFile << "Матриця суміжності: " << (total_dijkstra_matrix / 5) << " с\n";
+            resultsFile << "Lista sąsiedztwa:  " << (total_dijkstra_list / 5) << " s\n";
+            resultsFile << "Macierz sąsiedztwa: " << (total_dijkstra_matrix / 5) << " s\n";
 
             resultsFile << "\n**Bellman-Ford**:\n";
-            resultsFile << "Список суміжності:  " << (total_bellman_list / 5) << " с\n";
-            resultsFile << "Матриця суміжності: " << (total_bellman_matrix / 5) << " с\n";
+            resultsFile << "Lista sąsiedztwa:  " << (total_bellman_list / 5) << " s\n";
+            resultsFile << "Macierz sąsiedztwa: " << (total_bellman_matrix / 5) << " s\n";
         }
     }
 
     resultsFile.close();
-    cout << "\n✅ Завершено! Результати записані у 'GraphAlgorithmResults.txt'.\n";
+    cout << "\nZakończono! Wyniki zapisane w 'GraphAlgorithmResults.txt'.\n";
     return 0;
 }

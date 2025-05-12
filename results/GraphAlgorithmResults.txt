@@ -1,0 +1,226 @@
+
+Testowanie grafów: 10 wierzchołków, gęstość 25%
+
+**DFS**:
+Lista sąsiedztwa:  1.7848e-06 s
+Macierz sąsiedztwa: 2.872e-07 s
+
+**Dijkstra**:
+Lista sąsiedztwa:  4.838e-06 s
+Macierz sąsiedztwa: 5.1008e-06 s
+
+**Bellman-Ford**:
+Lista sąsiedztwa:  7.0076e-06 s
+Macierz sąsiedztwa: 8.944e-06 s
+
+Testowanie grafów: 10 wierzchołków, gęstość 50%
+
+**DFS**:
+Lista sąsiedztwa:  3.5082e-06 s
+Macierz sąsiedztwa: 4.01e-07 s
+
+**Dijkstra**:
+Lista sąsiedztwa:  1.02362e-05 s
+Macierz sąsiedztwa: 1.11044e-05 s
+
+**Bellman-Ford**:
+Lista sąsiedztwa:  1.30362e-05 s
+Macierz sąsiedztwa: 1.14764e-05 s
+
+Testowanie grafów: 10 wierzchołków, gęstość 75%
+
+**DFS**:
+Lista sąsiedztwa:  4.4484e-06 s
+Macierz sąsiedztwa: 4.808e-07 s
+
+**Dijkstra**:
+Lista sąsiedztwa:  1.29098e-05 s
+Macierz sąsiedztwa: 1.49248e-05 s
+
+**Bellman-Ford**:
+Lista sąsiedztwa:  1.76224e-05 s
+Macierz sąsiedztwa: 1.24092e-05 s
+
+Testowanie grafów: 10 wierzchołków, gęstość 100%
+
+**DFS**:
+Lista sąsiedztwa:  5.6382e-06 s
+Macierz sąsiedztwa: 5.648e-07 s
+
+**Dijkstra**:
+Lista sąsiedztwa:  1.6175e-05 s
+Macierz sąsiedztwa: 1.67708e-05 s
+
+**Bellman-Ford**:
+Lista sąsiedztwa:  2.41468e-05 s
+Macierz sąsiedztwa: 1.44172e-05 s
+
+Testowanie grafów: 50 wierzchołków, gęstość 25%
+
+**DFS**:
+Lista sąsiedztwa:  3.383e-05 s
+Macierz sąsiedztwa: 9.732e-07 s
+
+**Dijkstra**:
+Lista sąsiedztwa:  0.000112881 s
+Macierz sąsiedztwa: 0.000124528 s
+
+**Bellman-Ford**:
+Lista sąsiedztwa:  0.000821183 s
+Macierz sąsiedztwa: 0.00109568 s
+
+Testowanie grafów: 50 wierzchołków, gęstość 50%
+
+**DFS**:
+Lista sąsiedztwa:  6.41096e-05 s
+Macierz sąsiedztwa: 1.6548e-06 s
+
+**Dijkstra**:
+Lista sąsiedztwa:  0.000185132 s
+Macierz sąsiedztwa: 0.000202764 s
+
+**Bellman-Ford**:
+Lista sąsiedztwa:  0.00166034 s
+Macierz sąsiedztwa: 0.00142103 s
+
+Testowanie grafów: 50 wierzchołków, gęstość 75%
+
+**DFS**:
+Lista sąsiedztwa:  9.27146e-05 s
+Macierz sąsiedztwa: 2.0114e-06 s
+
+**Dijkstra**:
+Lista sąsiedztwa:  0.000273857 s
+Macierz sąsiedztwa: 0.000289057 s
+
+**Bellman-Ford**:
+Lista sąsiedztwa:  0.00246891 s
+Macierz sąsiedztwa: 0.00162794 s
+
+Testowanie grafów: 50 wierzchołków, gęstość 100%
+
+**DFS**:
+Lista sąsiedztwa:  0.000119639 s
+Macierz sąsiedztwa: 2.275e-06 s
+
+**Dijkstra**:
+Lista sąsiedztwa:  0.00034779 s
+Macierz sąsiedztwa: 0.000355019 s
+
+**Bellman-Ford**:
+Lista sąsiedztwa:  0.00323799 s
+Macierz sąsiedztwa: 0.00180863 s
+
+Testowanie grafów: 100 wierzchołków, gęstość 25%
+
+**DFS**:
+Lista sąsiedztwa:  0.000133271 s
+Macierz sąsiedztwa: 2.1708e-06 s
+
+**Dijkstra**:
+Lista sąsiedztwa:  0.000409142 s
+Macierz sąsiedztwa: 0.000637798 s
+
+**Bellman-Ford**:
+Lista sąsiedztwa:  0.00673733 s
+Macierz sąsiedztwa: 0.00932235 s
+
+Testowanie grafów: 100 wierzchołków, gęstość 50%
+
+**DFS**:
+Lista sąsiedztwa:  0.000245267 s
+Macierz sąsiedztwa: 3.632e-06 s
+
+**Dijkstra**:
+Lista sąsiedztwa:  0.000740362 s
+Macierz sąsiedztwa: 0.000997156 s
+
+**Bellman-Ford**:
+Lista sąsiedztwa:  0.0133452 s
+Macierz sąsiedztwa: 0.0118155 s
+
+Testowanie grafów: 100 wierzchołków, gęstość 75%
+
+**DFS**:
+Lista sąsiedztwa:  0.000347026 s
+Macierz sąsiedztwa: 3.867e-06 s
+
+**Dijkstra**:
+Lista sąsiedztwa:  0.000978845 s
+Macierz sąsiedztwa: 0.00128945 s
+
+**Bellman-Ford**:
+Lista sąsiedztwa:  0.0194652 s
+Macierz sąsiedztwa: 0.012737 s
+
+Testowanie grafów: 100 wierzchołków, gęstość 100%
+
+**DFS**:
+Lista sąsiedztwa:  0.000459012 s
+Macierz sąsiedztwa: 3.9636e-06 s
+
+**Dijkstra**:
+Lista sąsiedztwa:  0.00125411 s
+Macierz sąsiedztwa: 0.0014969 s
+
+**Bellman-Ford**:
+Lista sąsiedztwa:  0.0257171 s
+Macierz sąsiedztwa: 0.0144601 s
+
+Testowanie grafów: 200 wierzchołków, gęstość 25%
+
+**DFS**:
+Lista sąsiedztwa:  0.000506603 s
+Macierz sąsiedztwa: 4.7864e-06 s
+
+**Dijkstra**:
+Lista sąsiedztwa:  0.00146565 s
+Macierz sąsiedztwa: 0.00254718 s
+
+**Bellman-Ford**:
+Lista sąsiedztwa:  0.0535331 s
+Macierz sąsiedztwa: 0.0802919 s
+
+Testowanie grafów: 200 wierzchołków, gęstość 50%
+
+**DFS**:
+Lista sąsiedztwa:  0.000985136 s
+Macierz sąsiedztwa: 7.0806e-06 s
+
+**Dijkstra**:
+Lista sąsiedztwa:  0.002612 s
+Macierz sąsiedztwa: 0.00423154 s
+
+**Bellman-Ford**:
+Lista sąsiedztwa:  0.105544 s
+Macierz sąsiedztwa: 0.140837 s
+
+Testowanie grafów: 200 wierzchołków, gęstość 75%
+
+**DFS**:
+Lista sąsiedztwa:  0.00139201 s
+Macierz sąsiedztwa: 7.5998e-06 s
+
+**Dijkstra**:
+Lista sąsiedztwa:  0.00369732 s
+Macierz sąsiedztwa: 0.00502863 s
+
+**Bellman-Ford**:
+Lista sąsiedztwa:  0.156731 s
+Macierz sąsiedztwa: 0.115078 s
+
+Testowanie grafów: 200 wierzchołków, gęstość 100%
+
+**DFS**:
+Lista sąsiedztwa:  0.00180082 s
+Macierz sąsiedztwa: 7.66e-06 s
+
+**Dijkstra**:
+Lista sąsiedztwa:  0.00470304 s
+Macierz sąsiedztwa: 0.00546011 s
+
+**Bellman-Ford**:
+Lista sąsiedztwa:  0.206346 s
+Macierz sąsiedztwa: 0.114011 s
+
+Testowanie grafów: 500 wierzchołków, gęstość 25%
