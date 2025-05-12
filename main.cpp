@@ -10,10 +10,10 @@ int main() {
     vector<bool> visited(size, false);
 
     AdjacencyListGraph listGraph(size);
-    listGraph.createGraph(size, density);
+    listGraph.createGraphWithNegativeWeights(size, density);
 
     AdjacencyMatrixGraph matrixGraph(size);
-    matrixGraph.createGraph(size, density);
+    matrixGraph.createGraphWithNegativeWeights(size, density);
 
     BellmanFord<AdjacencyListGraph> bellman_list;
     BellmanFord<AdjacencyMatrixGraph> bellman_matrix;

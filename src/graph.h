@@ -18,6 +18,8 @@ public:
 
     void createGraph(int vertices, double density);
     double calculateDensity() const;
+
+    void createGraphWithNegativeWeights(int vertices, double density);
 };
 
 class AdjacencyListGraph {
@@ -30,4 +32,6 @@ public:
 
     void createGraph(int vertices, double density);
     double calculateDensity() const;
+
+    void createGraphWithNegativeWeights(int vertices, double density);
 };

@@ -24,7 +24,7 @@ int main() {
     const int TESTS = 100;
     const int SEEDS[] = {250, 300, 350, 400, 450};
 
-    ofstream resultsFile("results/GraphAlgorithmResults.txt");
+    ofstream resultsFile("results/Results.txt");
     if (!resultsFile.is_open()) {
         cerr << "Błąd otwarcia pliku do zapisu!" << endl;
         return 1;
@@ -50,6 +50,12 @@ int main() {
                 AdjacencyMatrixGraph matrixGraph(size);
                 matrixGraph.createGraph(size, density);
 
+                AdjacencyListGraph listGraphNegW(size);
+                listGraphNegW.createGraphWithNegativeWeights(size, density);
+
+                AdjacencyMatrixGraph matrixGraphNegW(size);
+                matrixGraphNegW.createGraphWithNegativeWeights(size, density);
+
                 DFS<AdjacencyListGraph> dfs_list;
                 DFS<AdjacencyMatrixGraph> dfs_matrix;
 
@@ -66,17 +72,17 @@ int main() {
                 for (int t = 0; t < TESTS; t++) {
                     vector<bool> visited(size, false);
 
-                    // 🏁 TEST DFS
+                    // TEST DFS
                     dfs_time_list += measure_time([&]() { dfs_list.run(listGraph, 0, visited); });
                     dfs_time_matrix += measure_time([&]() { dfs_matrix.run(matrixGraph, 0, visited); });
 
-                    // 🏁 TEST Dijkstra
+                    // TEST Dijkstra
                     dijkstra_time_list += measure_time([&]() { dijkstra_list.run(listGraph, 0); });
                     dijkstra_time_matrix += measure_time([&]() { dijkstra_matrix.run(matrixGraph, 0); });
 
-                    // 🏁 TEST Bellman-Ford
-                    bellman_time_list += measure_time([&]() { bellman_list.run(listGraph, 0); });
-                    bellman_time_matrix += measure_time([&]() { bellman_matrix.run(matrixGraph, 0); });
+                    // TEST Bellman-Ford
+                    bellman_time_list += measure_time([&]() { bellman_list.run(listGraphNegW, 0); });
+                    bellman_time_matrix += measure_time([&]() { bellman_matrix.run(matrixGraphNegW, 0); });
                 }
 
                 total_dfs_list += dfs_time_list / TESTS;

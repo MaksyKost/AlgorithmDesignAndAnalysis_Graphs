@@ -1,7 +1,5 @@
 #include "graph.h"
 
-
-
 AdjacencyMatrixGraph::AdjacencyMatrixGraph(int vertices) : V(vertices) {
     matrix.resize(V, vector<int>(V, numeric_limits<int>::max()));
 }
@@ -89,4 +87,48 @@ double AdjacencyMatrixGraph::calculateDensity() const {
     }
 
     return (static_cast<double>(actualEdges) / maxEdges) * 100.0; // Густина у %
+}
+
+void AdjacencyListGraph::createGraphWithNegativeWeights(int vertices, double density) {
+    V = vertices;
+    list.clear();
+    list.resize(V);
+
+    int maxEdges = V * (V - 1); // Maksymalna liczba krawędzi w grafie skierowanym
+    int targetEdges = static_cast<int>(density * maxEdges);
+
+    std::set<std::pair<int, int>> addedEdges;
+
+    while (addedEdges.size() < targetEdges) {
+        int u = rand() % V;
+        int v = rand() % V;
+        int weight = (rand() % 200) - 100; // Wagi od -100 do 100
+
+        if (u != v && addedEdges.find({u, v}) == addedEdges.end()) {
+            addEdge(u, v, weight);
+            addedEdges.insert({u, v});
+        }
+    }
+}
+
+void AdjacencyMatrixGraph::createGraphWithNegativeWeights(int vertices, double density) {
+    V = vertices;
+    matrix.clear();
+    matrix.resize(V, std::vector<int>(V, std::numeric_limits<int>::max()));
+
+    int maxEdges = V * (V - 1);
+    int targetEdges = static_cast<int>(density * maxEdges);
+
+    int edgesAdded = 0;
+
+    while (edgesAdded < targetEdges) {
+        int u = rand() % V;
+        int v = rand() % V;
+        int weight = (rand() % 200) - 100; // Wagi od -100 do 100
+
+        if (u != v && matrix[u][v] == std::numeric_limits<int>::max()) {
+            matrix[u][v] = weight;
+            edgesAdded++;
+        }
+    }
 }
