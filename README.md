@@ -1,7 +1,7 @@
-# DataDesignAndAnalysis_Graphs
+# AlgorithmDesignAndAnalysis_Graphs
 Implementation and benchmarking of graph algorithms (C++).
 
-# Data design and analysis: Graphs
+# Algorithm design and analysis: Graphs
 Graph Algorithms: Dijkstra, Bellman-Ford, and Depth-First Search (DFS)
 
 This repository was created for the Data Design and Analysis course at Wrocław University of Science and Technology.
